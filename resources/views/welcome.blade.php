@@ -7,10 +7,10 @@
         <header id="site_header" class="header mobile-menu-hide">
           <div class="header-content">
             <div class="header-photo">
-              <img src="{{asset('assets/img/foto/profile.jpeg')}}" alt="Diego Jaramillo">
+              <img src="{{asset('assets/img/foto/profile2.jpeg')}}" alt="Diego Jaramillo">
             </div>
             <div class="header-titles">
-              <h2>Diego Jaramillo</h2>
+              <h3>Diego Fernando Jaramillo Durán</h3>
               <h4>Software developer</h4>
             </div>
           </div>
@@ -93,14 +93,14 @@
                   <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-12">
                       <div class="title-block">
-                        <h2>Alex Smith</h2>
+                        <h2>Diego Jaramillo</h2>
                         <div class="owl-carousel text-rotation">
                           <div class="item">
-                            <div class="sp-subtitle">Web Designer</div>
+                            <div class="sp-subtitle">Software developer</div>
                           </div>
 
                           <div class="item">
-                            <div class="sp-subtitle">Frontend-developer</div>
+                            <div class="sp-subtitle">backend-developer</div>
                           </div>
                         </div>
                       </div>
@@ -115,41 +115,43 @@
             <section data-id="about-me" class="animated-section">
               <div class="section-content">
                 <div class="page-title">
-                  <h2>About <span>Me</span></h2>
+                  <h2>un poco sobre <span>mi!</span></h2>
                 </div>
 
                 <!-- Personal Information -->
                 <div class="row">
                   <div class="col-xs-12 col-sm-7">
-                    <p>Proin volutpat mauris ac pellentesque pharetra. Suspendisse congue elit vel odio suscipit, sit amet tempor nisl imperdiet. Quisque ex justo, faucibus ut mi in, condimentum finibus dolor. Aliquam vitae hendrerit dolor, eget imperdiet mauris. Maecenas et ante id ipsum condimentum dictum et vel massa. Ut in imperdiet dolor, vel consectetur dui.</p>
+                    <p>Mucho gusto! soy Diego Jaramillo soy desarrolldor de software enfocado al desarrollo web-backend, soy autodidacta me encanta aprender todos los dias, me gusta trabajar en equipo, compartir conocimientos y aprender de mis colegas.
+                    aunque me especializo en el desarrollo web backend tambien manejo habilidades para el desarrollo en frontend.
+                    actualmente curso el ultimo semestre de Tecnologia en desarrollo de software en la Universidad Surcolombiana,Trabajo en un proyecto de software administrativo y operativo operativo para una empresa de transporte muy importante de la región, actualmente abierto a cualquier reto que se me presente. </p>
                   </div>
 
                   <div class="col-xs-12 col-sm-5">
                     <div class="info-list">
                       <ul>
                         <li>
-                          <span class="title">Age</span>
-                          <span class="value">32</span>
+                          <span class="title">Edad</span>
+                          <span class="value">23</span>
                         </li>
 
                         <li>
                           <span class="title">Residence</span>
-                          <span class="value">USA</span>
+                          <span class="value">Colombia</span>
                         </li>
 
                         <li>
-                          <span class="title">Address</span>
-                          <span class="value">88 Some Street, Some Town</span>
+                          <span class="title">Ciudad</span>
+                          <span class="value">Neiva</span>
                         </li>
 
                         <li>
                           <span class="title">e-mail</span>
-                          <span class="value">email@example.com</span>
+                          <span class="value">diegojaramillo473@gmail.com</span>
                         </li>
 
                         <li>
-                          <span class="title">Phone</span>
-                          <span class="value">+0123 123 456 789</span>
+                          <span class="title">Celular</span>
+                          <span class="value">+57 3126732928</span>
                         </li>
                       </ul>
                     </div>
@@ -163,7 +165,7 @@
                 <div class="row">
                   <div class="col-xs-12 col-sm-12">
                     <div class="block-title">
-                      <h3>What <span>I Do</span></h3>
+                      <h3>Mis <span>conocimientos!</span></h3>
                     </div>
                   </div>
                 </div>
@@ -793,7 +795,7 @@
 
                         <figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'>
                           <div class="portfolio-item-img">
-                            <img src="img/portfolio/1.jpg" alt="SoundCloud Audio" title="" />
+                            <img src="{{asset('assets/img/portfolio/1.jpg')}}" alt="SoundCloud Audio" title="" />
                             <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221650664&#038;color=%23ff5500&#038;auto_play=false&#038;hide_related=false&#038;show_comments=true&#038;show_user=true&#038;show_reposts=false&#038;show_teaser=true&#038;visual=true" class="lightbox mfp-iframe" title="SoundCloud Audio"></a>
                           </div>
 
@@ -804,7 +806,7 @@
 
                         <figure class="item standard" data-groups='["category_all", "category_detailed"]'>
                           <div class="portfolio-item-img">
-                            <img src="img/portfolio/2.jpg" alt="Media Project 2" title="" />
+                            <img src="{{asset('assets/img/portfolio/2.jpg')}}" alt="Media Project 2" title="" />
                             <a href="portfolio-1.html" class="ajax-page-load"></a>
                           </div>
 
@@ -815,7 +817,7 @@
 
                         <figure class="item lbvideo" data-groups='["category_all", "category_vimeo-videos"]'>
                           <div class="portfolio-item-img">
-                            <img src="img/portfolio/3.jpg" alt="Vimeo Video 1" title="" />
+                            <img src="{{asset('assets/img/portfolio/3.jpg')}}" alt="Vimeo Video 1" title="" />
                             <a href="https://player.vimeo.com/video/158284739" class="lightbox mfp-iframe" title="Vimeo Video 1"></a>
                           </div>
 
@@ -826,7 +828,7 @@
 
                         <figure class="item standard" data-groups='["category_all", "category_detailed"]'>
                           <div class="portfolio-item-img">
-                            <img src="img/portfolio/4.jpg" alt="Media Project 1" title="" />
+                            <img src="{{asset('assets/img/portfolio/4.jpg')}}" alt="Media Project 1" title="" />
                             <a href="portfolio-1.html" class="ajax-page-load"></a>
                           </div>
 
@@ -837,8 +839,8 @@
 
                         <figure class="item lbimage" data-groups='["category_all", "category_mockups"]'>
                           <div class="portfolio-item-img">
-                            <img src="img/portfolio/5.jpg" alt="Mockup Design 1" title="" />
-                            <a class="lightbox" title="Mockup Design 1" href="img/portfolio/full/5.jpg"></a>
+                            <img src="{{asset('assets/img/portfolio/5.jpg')}}" alt="Mockup Design 1" title="" />
+                            <a class="lightbox" title="Mockup Design 1" href="{{asset('img/portfolio/full/5.jpg')}}"></a>
                           </div>
 
                           <i class="far fa-image"></i>
@@ -848,7 +850,7 @@
 
                         <figure class="item lbvideo" data-groups='["category_all", "category_youtube-videos"]'>
                           <div class="portfolio-item-img">
-                            <img src="img/portfolio/6.jpg" alt="YouTube Video 1" title="" />
+                            <img src="{{asset('assets/img/portfolio/6.jpg')}}" alt="YouTube Video 1" title="" />
                             <a href="https://www.youtube.com/embed/bg0gv2YpIok" class="lightbox mfp-iframe" title="YouTube Video 1"></a>
                           </div>
 
@@ -884,7 +886,7 @@
                               <a href="#" title="View all posts in Design">Design</a>
                             </div>
                             <a href="blog-post-1.html">
-                              <img src="img/blog/blog_post_1.jpg" class="size-blog-masonry-image-two-c" alt="Why I Switched to Sketch For UI Design" title="" />
+                              <img src="{{asset('assets/img/blog/blog_post_1.jpg')}}" class="size-blog-masonry-image-two-c" alt="Why I Switched to Sketch For UI Design" title="" />
                               <div class="mask"></div>
                             </a>
                           </div>
@@ -906,7 +908,7 @@
                               <a href="#" title="View all posts in UI">UI</a>
                             </div>
                             <a href="blog-post-1.html">
-                              <img src="img/blog/blog_post_2.jpg" class="size-blog-masonry-image-two-c" alt="Best Practices for Animated Progress Indicators" title="" />
+                              <img src="{{asset('assets/img/blog/blog_post_2.jpg')}}" class="size-blog-masonry-image-two-c" alt="Best Practices for Animated Progress Indicators" title="" />
                               <div class="mask"></div>
                             </a>
                           </div>
@@ -928,7 +930,7 @@
                               <a href="#" title="View all posts in Design">Design</a>
                             </div>
                             <a href="blog-post-1.html">
-                              <img src="img/blog/blog_post_3.jpg" class="size-blog-masonry-image-two-c" alt="Designing the Perfect Feature Comparison Table" title="" />
+                              <img src="{{asset('assets/img/blog/blog_post_3.jpg')}}" class="size-blog-masonry-image-two-c" alt="Designing the Perfect Feature Comparison Table" title="" />
                               <div class="mask"></div>
                             </a>
                           </div>
@@ -950,7 +952,7 @@
                               <a href="#" title="View all posts in E-Commerce">UI</a>
                             </div>
                             <a href="blog-post-1.html">
-                              <img src="img/blog/blog_post_4.jpg" class="size-blog-masonry-image-two-c" alt="An Overview of E-Commerce Platforms" title="" />
+                              <img src="{{asset('assets/img/blog/blog_post_4.jpg')}}" class="size-blog-masonry-image-two-c" alt="An Overview of E-Commerce Platforms" title="" />
                               <div class="mask"></div>
                             </a>
                           </div>
@@ -1021,7 +1023,7 @@
                       <h3>How Can I <span>Help You?</span></h3>
                     </div>
 
-                    <form id="contact_form" class="contact-form" action="contact_form/contact_form.php" method="post">
+                    <form id="contact_form" class="contact-form" action="{{asset('assets/contact_form/contact_form.php')}}" method="post">
 
                       <div class="messages"></div>
 
