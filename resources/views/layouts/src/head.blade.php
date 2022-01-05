@@ -17,4 +17,8 @@
     <link rel="stylesheet" href="{{asset('assets/css/owl.carousel.css')}}" type="text/css">
     <link rel="stylesheet" href="{{asset('assets/css/magnific-popup.css')}}" type="text/css">
     <link rel="stylesheet" href="{{asset('assets/css/main.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('assets/css/mis_estilos/Styles.css')}}" type="text/css">
+
+    <!-- token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
   </head>

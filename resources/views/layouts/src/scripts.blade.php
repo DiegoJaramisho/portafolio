@@ -11,7 +11,9 @@
 <script src='{{asset('assets/js/owl.carousel.min.js')}}'></script>
 <script src="{{asset('assets/js/jquery.magnific-popup.min.js')}}"></script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script>
-<script src="{{asset('assets/js/jquery.googlemap.js')}}"></script>
+{{-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script> --}}
+{{-- <script src="{{asset('assets/js/jquery.googlemap.js')}}"></script> --}}
 <script src="{{asset('assets/js/validator.js')}}"></script>
+{{-- <script src="https://unpkg.com/validator@latest/validator.min.js"></script> --}}
 <script src="{{asset('assets/js/main.js')}}"></script>
+<script src="{{asset('assets/js/pages/index.js')}}"></script>

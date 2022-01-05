@@ -11,7 +11,7 @@
     function portfolio_init() {
         var portfolio_grid = $('.portfolio-grid'),
             portfolio_filter = $('.portfolio-filters');
-            
+
         if (portfolio_grid) {
 
             portfolio_grid.shuffle({
@@ -65,34 +65,6 @@
     // /Custom scroll
 
     // Contact form validator
-    $(function () {
-
-        $('#contact_form').validator();
-
-        $('#contact_form').on('submit', function (e) {
-            if (!e.isDefaultPrevented()) {
-                var url = "contact_form/contact_form.php";
-
-                $.ajax({
-                    type: "POST",
-                    url: url,
-                    data: $(this).serialize(),
-                    success: function (data)
-                    {
-                        var messageAlert = 'alert-' + data.type;
-                        var messageText = data.message;
-
-                        var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
-                        if (messageAlert && messageText) {
-                            $('#contact_form').find('.messages').html(alertBox);
-                            $('#contact_form')[0].reset();
-                        }
-                    }
-                });
-                return false;
-            }
-        });
-    });
     // /Contact form validator
 
     //On Window load & Resize
@@ -305,12 +277,12 @@
         });
 
         //Google Maps
-        $("#map").googleMap({
-            zoom: 16 // Google Map ZOOM. You can change this value
-        });
-        $("#map").addMarker({
-            address: "S601 Townsend Street, San Francisco, California, USA", // Your Address. Change it
-        });
+        // $("#map").googleMap({
+        //     zoom: 16 // Google Map ZOOM. You can change this value
+        // });
+        // $("#map").addMarker({
+        //     address: "S601 Townsend Street, San Francisco, California, USA", // Your Address. Change it
+        // });
     });
 
 })(jQuery);

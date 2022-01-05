@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\emailController;
+use App\Mail\ContactoMailable;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +19,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('contactar',function(){
+    $correo = new ContactoMailable();
+    Mail::to('diegojaramillo473@gmail.com')->send($correo);
+    return "mensaje enviado";
+
+});
+
+Route::get('email',[emailController::class,'email']);

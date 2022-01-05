@@ -1,8 +1,8 @@
 <?php
 
 // configure
-$from = 'info@yourdomain.com'; // Replace it with Your Hosting Admin email. REQUIRED!
-$sendTo = 'your@mail.com'; // Replace it with Your email. REQUIRED!
+$from = 'saturno.dayofsund@gmail.com'; // Replace it with Your Hosting Admin email. REQUIRED!
+$sendTo = 'diegojaramillo473@gmail.com'; // Replace it with Your email. REQUIRED!
 $subject = 'New message from contact form';
 $fields = array('name' => 'Name', 'email' => 'Email', 'subject' => 'Subject', 'message' => 'Message'); // array variable name => Text to appear in the email. If you added or deleted a field in the contact form, edit this array.
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
@@ -38,7 +38,7 @@ if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'
                 'Reply-To: ' . $from,
                 'Return-Path: ' . $from,
             );
-            
+
             mail($sendTo, $subject, $emailText, implode("\n", $headers));
 
             $responseArray = array('type' => 'success', 'message' => $okMessage);

@@ -3,7 +3,7 @@
 @include('layouts.src.head')
 <body>
     <!-- Animated Background -->
-    <div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
+    <div class="lm-animated-bg" style="background-image: url({{asset('assets/img/main_bg.png')}}"></div>
     <!-- /Animated Background -->
 
     <!-- Loading animation -->

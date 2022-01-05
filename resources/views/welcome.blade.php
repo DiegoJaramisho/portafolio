@@ -40,12 +40,12 @@
                 <span class="link-text">Portfolio</span>
               </a>
             </li>
-            <li>
+            {{-- <li>
               <a href="#blog" class="nav-anim">
                 <span class="menu-icon lnr lnr-book"></span>
                 <span class="link-text">Blog</span>
               </a>
-            </li>
+            </li> --}}
             <li>
               <a href="#contact" class="nav-anim">
                 <span class="menu-icon lnr lnr-envelope"></span>
@@ -56,17 +56,17 @@
 
           <div class="social-links">
             <ul>
-              <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-              <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-              <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/diego-fernando-jaramillo-duran-4169b3208" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+              {{-- <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li> --}}
             </ul>
           </div>
 
           <div class="header-buttons">
-            <a href="#" target="_blank" class="btn btn-primary">Download CV</a>
+            <a href="{{asset('assets/doc/Hoja_de_vida.pdf')}}"  target="_blank" class="btn btn-primary" download>Download CV</a>
           </div>
 
-          <div class="copyrights">© 2020 All rights reserved.</div>
+          {{-- <div class="copyrights">© 2020 All rights reserved.</div> --}}
         </header>
 
         <!-- Mobile Navigation -->
@@ -121,9 +121,7 @@
                 <!-- Personal Information -->
                 <div class="row">
                   <div class="col-xs-12 col-sm-7">
-                    <p>Mucho gusto! soy Diego Jaramillo soy desarrolldor de software enfocado al desarrollo web-backend, soy autodidacta me encanta aprender todos los dias, me gusta trabajar en equipo, compartir conocimientos y aprender de mis colegas.
-                    aunque me especializo en el desarrollo web backend tambien manejo habilidades para el desarrollo en frontend.
-                    actualmente curso el ultimo semestre de Tecnologia en desarrollo de software en la Universidad Surcolombiana,Trabajo en un proyecto de software administrativo y operativo operativo para una empresa de transporte muy importante de la región, actualmente abierto a cualquier reto que se me presente. </p>
+                    <p>Mucho gusto! Soy Diego Jaramillo, soy desarrollador de software enfocado al desarrollo web-backend, soy autodidacta, me encanta estar en continuo aprendizaje, me gusta trabajar en equipo,compartir conocimientos y aprender de mis colegas, ya que de este modo se genera un buen clima laboral y profesional. Aunque me especializo en el desarrollo web-backend también manejo habilidades en cuanto al desarrollo en frontend. Actualmente curso el último semestre de Tecnología en desarrollo de software en la Universidad Surcolombiana, también trabajo en un proyecto de software administrativo y operativo para una empresa de transporte muy importante en la región. Hoy me encuentro dispuesto a cumplir con cualquier reto que se me presente.</p>
                   </div>
 
                   <div class="col-xs-12 col-sm-5">
@@ -162,7 +160,7 @@
                 <div class="white-space-50"></div>
 
                 <!-- Services -->
-                <div class="row">
+                {{-- <div class="row">
                   <div class="col-xs-12 col-sm-12">
                     <div class="block-title">
                       <h3>Mis <span>conocimientos!</span></h3>
@@ -179,8 +177,8 @@
                             <i class="lnr lnr-store"></i>
                           </div>
                           <div class="ci-text">
-                            <h4>Ecommerce</h4>
-                            <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales.</p>
+                            <h4>Estructuracion BDD</h4>
+                            <p>Se estructutrar bases de datos entendiendo los modelos relacionales entre entidades</p>
                           </div>
                         </div>
                         <div class="info-block-w-icon">
@@ -218,13 +216,13 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> --}}
                 <!-- End of Services -->
 
-                <div class="white-space-30"></div>
+                {{-- <div class="white-space-30"></div> --}}
 
                 <!-- Testimonials -->
-                <div class="row">
+                {{-- <div class="row">
                   <div class="col-xs-12 col-sm-12">
                     <div class="block-title">
                       <h3>Testimonials</h3>
@@ -293,13 +291,13 @@
                       <!-- End of Testimonial 3 -->
                     </div>
                   </div>
-                </div>
+                </div> --}}
                 <!-- End of Testimonials -->
 
-                <div class="white-space-50"></div>
+                {{-- <div class="white-space-50"></div> --}}
 
                 <!-- Clients -->
-                <div class="row">
+                {{-- <div class="row">
                   <div class="col-xs-12 col-sm-12">
                     <div class="block-title">
                       <h3>Cilents</h3>
@@ -355,13 +353,13 @@
 
                     </div>
                   </div>
-                </div>
+                </div> --}}
                 <!-- End of Clients -->
 
-                <div class="white-space-50"></div>
+                {{-- <div class="white-space-50"></div> --}}
 
                 <!-- Pricing -->
-                <div class="row">
+                {{-- <div class="row">
                   <div class="col-xs-12 col-sm-12">
 
                     <div class="block-title">
@@ -420,13 +418,13 @@
 
                     </div>
                   </div>
-                </div>
+                </div> --}}
                 <!-- End of Pricing -->
 
-                <div class="white-space-50"></div>
+                {{-- <div class="white-space-50"></div> --}}
 
                 <!-- Fun Facts -->
-                <div class="row">
+                {{-- <div class="row">
                   <div class="col-xs-12 col-sm-12">
 
                     <div class="block-title">
@@ -462,7 +460,7 @@
                       <span class="fun-fact-block-text"></span>
                     </div>
                   </div>
-                </div>
+                </div> --}}
                 <!-- End of Fun Facts -->
 
               </div>
@@ -480,23 +478,23 @@
                   <div class="col-xs-12 col-sm-7">
 
                     <div class="block-title">
-                      <h3>Education</h3>
+                      <h3>Educación</h3>
                     </div>
 
                     <div class="timeline timeline-second-style clearfix">
                       <div class="timeline-item clearfix">
                         <div class="left-part">
-                          <h5 class="item-period">2008</h5>
-                          <span class="item-company">University of Studies</span>
+                          <h5 class="item-period">2018</h5>
+                          <span class="item-company">Universidad Surcolombiana</span>
                         </div>
                         <div class="divider"></div>
                         <div class="right-part">
-                          <h4 class="item-title">Frontend Development</h4>
-                          <p>Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis ante.</p>
+                          <h4 class="item-title">Tecnología en desarrollo de software</h4>
+                          <p>Actualmente cursando el ultimo semestre de la carrera,adquiri muchos conociemientos en arquitectura de software, ingenieria, gestion de proyectos y programacion los cuales fortaleci como autodidacta.</p>
                         </div>
                       </div>
 
-                      <div class="timeline-item clearfix">
+                      {{-- <div class="timeline-item clearfix">
                         <div class="left-part">
                           <h5 class="item-period">2007</h5>
                           <span class="item-company">University of Studies</span>
@@ -506,49 +504,58 @@
                           <h4 class="item-title">Graphic Design</h4>
                           <p>Aliquam tincidunt malesuada tortor vitae iaculis. In eu turpis iaculis, feugiat risus quis, aliquet urna. Quisque fringilla mollis risus, eu pulvinar dolor.</p>
                         </div>
-                      </div>
+                      </div> --}}
                     </div>
 
                     <div class="white-space-50"></div>
 
                     <div class="block-title">
-                      <h3>Experience</h3>
+                      <h3>Expeciencia</h3>
                     </div>
 
                     <div class="timeline timeline-second-style clearfix">
                       <div class="timeline-item clearfix">
                         <div class="left-part">
-                          <h5 class="item-period">2016 - Current</h5>
-                          <span class="item-company">Google</span>
+                          <h5 class="item-period">2021 - Actualidad</h5>
+                          <span class="item-company">CootransHuila</span>
                         </div>
                         <div class="divider"></div>
                         <div class="right-part">
-                          <h4 class="item-title">Lead Ui/Ux Designer</h4>
-                          <p>Praesent dignissim sollicitudin justo, sed elementum quam lacinia quis. Phasellus eleifend tristique posuere. Sed vitae dui nec magna.</p>
+                          <h4 class="item-title">Desarrollador de software</h4>
+                          <p>Actualmente trabajo en un proyecto de software administrativo y operativo para la empresa CootrasnHuila donde he participado de la planeacion, estructuracion y desarrollo de la base de datos, desarrollo del sistema por medio del paradigma de la POO y uso de la arquitectura MVC (modelo-vista-controlador).
+                            Otras funciones asignadas:
+                          <ul>
+                            <li> mantenimiento de la pagina principal de la empresa <a href="www.cootranshuila.com">Cootranshuila</a></li>
+                            <li>Brindar soluciones de software a los diferentes requerimientos de la empresa</li>
+                          </ul>
+                          </p>
                         </div>
                       </div>
 
                       <div class="timeline-item clearfix">
                         <div class="left-part">
-                          <h5 class="item-period">2013 - 2016</h5>
-                          <span class="item-company">Adobe</span>
+                          <h5 class="item-period">2021</h5>
+                          <span class="item-company">TataocoaTours</span>
                         </div>
                         <div class="divider"></div>
                         <div class="right-part">
-                          <h4 class="item-title">Senior Ui/Ux Designer</h4>
-                          <p>Maecenas tempus faucibus rutrum. Duis eu aliquam urna. Proin vitae nulla tristique, ornare felis id, congue libero. Nam volutpat euismod quam.</p>
+                          <h4 class="item-title">Desarrollador web</h4>
+                          Funciones asignadas:
+                          <ul>
+                          <li>Desarrollar la pagina web de la agencia de turismo <a href="www.tatacoatours.com">TatatcoaTours</a></li>
+                          <li>Administrar fanpage de Instagram y facebook de la agencia.</li>
                         </div>
                       </div>
 
                       <div class="timeline-item clearfix">
                         <div class="left-part">
-                          <h5 class="item-period">2011 - 2013</h5>
-                          <span class="item-company">Google</span>
+                          <h5 class="item-period">2020</h5>
+                          <span class="item-company">HostalSarita</span>
                         </div>
                         <div class="divider"></div>
                         <div class="right-part">
-                          <h4 class="item-title">Junior Ui/Ux Designer</h4>
-                          <p>Duis mollis nunc quis quam viverra venenatis. Nulla nulla arcu, congue vitae nunc ac, sodales ultricies diam. Nullam justo leo, tincidunt sit amet.</p>
+                          <h4 class="item-title">Desarrollador web-freelancer</h4>
+                          <p>Desarrollar la pagina web del Hostal</p>
                         </div>
                       </div>
                     </div>
@@ -559,61 +566,73 @@
                   <div class="col-xs-12 col-sm-5">
                     <!-- Design Skills -->
                     <div class="block-title">
-                      <h3>Design <span>Skills</span></h3>
+                      <h3>Mis <span>Habilidades</span></h3>
+                    </div>
+                    <div class="habilidades">
+                        <ul class="knowledges">
+                            <li><img src="https://cineticaweb.com/assets/laravel.png" alt="" ></li>
+                            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1067px-PHP-logo.svg.png" alt="" width="75"></li>
+                            <li><img src="{{asset('assets/img/foto/postgres.png')}}" alt="" width="75"></li>
+                            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="" width="75"></li>
+                            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png" alt="" width="75"></li>
+                            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/300px-HTML5_logo_and_wordmark.svg.png" alt="" width="75"></li>
+                            <li><img src="https://lineadecodigo.com/wp-content/uploads/2014/04/css.png" alt="" width="75"></li>
+                            {{-- {{-- <li>Social Networking</li> --}}
+                            <li><img src="http://pngimg.com/uploads/github/github_PNG72.png" alt="" width="75"></li>
+                        </ul>
                     </div>
 
-                    <div class="skills-info skills-second-style">
+                    {{-- <div class="skills-info skills-second-style"> --}}
                       <!-- Skill 1 -->
-                      <div class="skill clearfix">
-                        <h4>Web Design</h4>
-                        <div class="skill-value">95%</div>
-                      </div>
-                      <div class="skill-container skill-1">
-                        <div class="skill-percentage"></div>
-                      </div>
+                      {{-- <div class="skill clearfix"> --}}
+
+                      {{-- </div> --}}
+                      {{-- <div class="skill-container skill-1">
+                        <div class="skill-percentage"></div> --}}
+                      {{-- </div> --}}
                       <!-- End of Skill 1 -->
 
                       <!-- Skill 2 -->
-                      <div class="skill clearfix">
+                      {{-- <div class="skill clearfix">
                         <h4>Print Design</h4>
                         <div class="skill-value">65%</div>
-                      </div>
-                      <div class="skill-container skill-2">
+                      </div> --}}
+                      {{-- <div class="skill-container skill-2">
                         <div class="skill-percentage"></div>
-                      </div>
+                      </div> --}}
                       <!-- End of Skill 2 -->
 
                       <!-- Skill 3 -->
-                      <div class="skill clearfix">
+                      {{-- <div class="skill clearfix">
                         <h4>Logo Design</h4>
                         <div class="skill-value">80%</div>
                       </div>
                       <div class="skill-container skill-3">
                         <div class="skill-percentage"></div>
-                      </div>
+                      </div> --}}
                       <!-- End of Skill 3 -->
 
                       <!-- Skill 4 -->
-                      <div class="skill clearfix">
+                      {{-- <div class="skill clearfix">
                         <h4>Graphic Design</h4>
                         <div class="skill-value">90%</div>
                       </div>
                       <div class="skill-container skill-4">
                         <div class="skill-percentage"></div>
-                      </div>
+                      </div> --}}
                       <!-- End of Skill 4 -->
 
-                    </div>
+                    {{-- </div> --}}
                     <!-- End of Design Skills -->
 
-                    <div class="white-space-10"></div>
+                    {{-- <div class="white-space-10"></div> --}}
 
                     <!-- Coding Skills -->
-                    <div class="block-title">
-                      <h3>Coding <span>Skills</span></h3>
-                    </div>
+                    {{-- <div class="block-title"> --}}
+                      {{-- <h3>Coding <span>Skills</span></h3> --}}
+                    {{-- </div> --}}
 
-                    <div class="skills-info skills-second-style">
+                    {{-- <div class="skills-info skills-second-style">
                       <!-- Skill 5 -->
                       <div class="skill clearfix">
                         <h4>JavaScript</h4>
@@ -671,31 +690,31 @@
                     <!-- Knowledges -->
                     <div class="block-title">
                       <h3>Knowledges</h3>
-                    </div>
+                    </div> --}}
 
                     <ul class="knowledges">
-                      <li>Marketing</li>
-                      <li>Print</li>
-                      <li>Digital Design</li>
-                      <li>Social Media</li>
-                      <li>Time Management</li>
-                      <li>Communication</li>
-                      <li>Problem-Solving</li>
-                      <li>Social Networking</li>
-                      <li>Flexibility</li>
+                      <li>Desarrollo web</li>
+                      <li>Bases de datos relacionales</li>
+                      <li>Desarrollo web-backend</li>
+                      <li>Desarrollo frontend</li>
+                      <li>Arquitectura MVC</li>
+                      <li>Trabajo en equipo</li>
+                      <li>autodidacta</li>
+                      <li>Continuo aprendizaje</li>
+                      <li>Manejo de repositorio Git-Hub</li>
                     </ul>
                     <!-- End of Knowledges -->
                   </div>
                   <!-- End of Skills & Certificates -->
                 </div>
 
-                <div class="white-space-50"></div>
+                {{-- <div class="white-space-50"></div>
 
                 <!-- Certificates -->
                 <div class="row">
                   <div class="col-xs-12 col-sm-12">
                     <div class="block-title">
-                      <h3>Certificates</h3>
+                      <h3>Certificados</h3>
                     </div>
                   </div>
                 </div>
@@ -752,7 +771,7 @@
                   <!-- End of Certificate 2 -->
 
                 </div>
-                <!-- End of Certificates -->
+                <!-- End of Certificates --> --}}
               </div>
             </section>
             <!-- End of Resume Subpage -->
@@ -761,7 +780,7 @@
             <section data-id="portfolio" class="animated-section">
               <div class="section-content">
                 <div class="page-title">
-                  <h2>Portfolio</h2>
+                  <h2>Portafolio</h2>
                 </div>
 
                 <div class="row">
@@ -774,89 +793,170 @@
                           <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>
                         </li>
                         <li>
-                          <a class="filter btn btn-sm btn-link" data-group="category_detailed">Detailed</a>
+                          <a class="filter btn btn-sm btn-link" data-group="aplicativo-web">Cootranshuila aplicativo web</a>
                         </li>
                         <li>
-                          <a class="filter btn btn-sm btn-link" data-group="category_mockups">Mockups</a>
+                          <a class="filter btn btn-sm btn-link" data-group="cootranshuila">Cootranshuila</a>
                         </li>
                         <li>
-                          <a class="filter btn btn-sm btn-link" data-group="category_soundcloud">SoundCloud</a>
+                          <a class="filter btn btn-sm btn-link" data-group="hostal">Hostal sarita</a>
                         </li>
                         <li>
-                          <a class="filter btn btn-sm btn-link" data-group="category_vimeo-videos">Vimeo Videos</a>
-                        </li>
-                        <li>
-                          <a class="filter btn btn-sm btn-link" data-group="category_youtube-videos">YouTube Videos</a>
+                          <a class="filter btn btn-sm btn-link" data-group="tatacoa">Tatacoa tours</a>
                         </li>
                       </ul>
 
                       <!-- Portfolio Grid -->
                       <div class="portfolio-grid three-columns">
-
-                        <figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'>
+                        <figure class="item lbimage" data-groups='["category_all", "aplicativo-web"]'>
                           <div class="portfolio-item-img">
-                            <img src="{{asset('assets/img/portfolio/1.jpg')}}" alt="SoundCloud Audio" title="" />
-                            <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221650664&#038;color=%23ff5500&#038;auto_play=false&#038;hide_related=false&#038;show_comments=true&#038;show_user=true&#038;show_reposts=false&#038;show_teaser=true&#038;visual=true" class="lightbox mfp-iframe" title="SoundCloud Audio"></a>
-                          </div>
-
-                          <i class="fa fa-volume-up"></i>
-                          <h4 class="name">SoundCloud Audio</h4>
-                          <span class="category">SoundCloud</span>
-                        </figure>
-
-                        <figure class="item standard" data-groups='["category_all", "category_detailed"]'>
-                          <div class="portfolio-item-img">
-                            <img src="{{asset('assets/img/portfolio/2.jpg')}}" alt="Media Project 2" title="" />
-                            <a href="portfolio-1.html" class="ajax-page-load"></a>
-                          </div>
-
-                          <i class="far fa-file-alt"></i>
-                          <h4 class="name">Detailed Project 2</h4>
-                          <span class="category">Detailed</span>
-                        </figure>
-
-                        <figure class="item lbvideo" data-groups='["category_all", "category_vimeo-videos"]'>
-                          <div class="portfolio-item-img">
-                            <img src="{{asset('assets/img/portfolio/3.jpg')}}" alt="Vimeo Video 1" title="" />
-                            <a href="https://player.vimeo.com/video/158284739" class="lightbox mfp-iframe" title="Vimeo Video 1"></a>
-                          </div>
-
-                          <i class="fas fa-video"></i>
-                          <h4 class="name">Vimeo Video 1</h4>
-                          <span class="category">Vimeo Videos</span>
-                        </figure>
-
-                        <figure class="item standard" data-groups='["category_all", "category_detailed"]'>
-                          <div class="portfolio-item-img">
-                            <img src="{{asset('assets/img/portfolio/4.jpg')}}" alt="Media Project 1" title="" />
-                            <a href="portfolio-1.html" class="ajax-page-load"></a>
-                          </div>
-
-                          <i class="far fa-file-alt"></i>
-                          <h4 class="name">Detailed Project 1</h4>
-                          <span class="category">Detailed</span>
-                        </figure>
-
-                        <figure class="item lbimage" data-groups='["category_all", "category_mockups"]'>
-                          <div class="portfolio-item-img">
-                            <img src="{{asset('assets/img/portfolio/5.jpg')}}" alt="Mockup Design 1" title="" />
-                            <a class="lightbox" title="Mockup Design 1" href="{{asset('img/portfolio/full/5.jpg')}}"></a>
+                            <img src="{{asset('assets/img/foto/portafolio/dashboard01.png')}}" alt="Mockup Design 1" title="" />
+                            <a class="lightbox" title="Aplicativo-web" href="{{asset('assets/img/foto/portafolio/dashboard01.png')}}"></a>
                           </div>
 
                           <i class="far fa-image"></i>
-                          <h4 class="name">Mockup Design 1</h4>
-                          <span class="category">Mockups</span>
+                          <h5 class="name">Cootranshuila plataforma(en desarrollo)</h5>
+                          <span class="category">Aplicativo web</span>
                         </figure>
+                        <figure class="item lbimage" data-groups='["category_all", "aplicativo-web"]'>
+                            <div class="portfolio-item-img">
+                              <img src="{{asset('assets/img/foto/portafolio/dashboard02.png')}}" alt="Mockup Design 1" title="" />
+                              <a class="lightbox" title="Aplicativo-web" href="{{asset('assets/img/foto/portafolio/dashboard02.png')}}"></a>
+                            </div>
 
-                        <figure class="item lbvideo" data-groups='["category_all", "category_youtube-videos"]'>
-                          <div class="portfolio-item-img">
-                            <img src="{{asset('assets/img/portfolio/6.jpg')}}" alt="YouTube Video 1" title="" />
-                            <a href="https://www.youtube.com/embed/bg0gv2YpIok" class="lightbox mfp-iframe" title="YouTube Video 1"></a>
-                          </div>
+                            <i class="far fa-image"></i>
+                            <h5 class="name">Cootranshuila plataforma(en desarrollo)</h5>
+                            <span class="category">Aplicativo web</span>
+                        </figure>
+                        <figure class="item lbimage" data-groups='["category_all", "aplicativo-web"]'>
+                            <div class="portfolio-item-img">
+                              <img src="{{asset('assets/img/foto/portafolio/dashboard03.png')}}" alt="Mockup Design 1" title="" />
+                              <a class="lightbox" title="Aplicativo-web" href="{{asset('assets/img/foto/portafolio/dashboard03.png')}}"></a>
+                            </div>
 
-                          <i class="fas fa-video"></i>
-                          <h4 class="name">YouTube Video 1</h4>
-                          <span class="category">YouTube Videos</span>
+                            <i class="far fa-image"></i>
+                            <h5 class="name">Cootranshuila plataforma(en desarrollo)</h5>
+                            <span class="category">Aplicativo web</span>
+                        </figure>
+                        <figure class="item lbimage" data-groups='["category_all", "aplicativo-web"]'>
+                            <div class="portfolio-item-img">
+                              <img src="{{asset('assets/img/foto/portafolio/dashboard04.png')}}" alt="Mockup Design 1" title="" />
+                              <a class="lightbox" title="Aplicativo-web" href="{{asset('assets/img/foto/portafolio/dashboard04.png')}}"></a>
+                            </div>
+
+                            <i class="far fa-image"></i>
+                            <h5 class="name">Cootranshuila plataforma(en desarrollo)</h5>
+                            <span class="category">Aplicativo web</span>
+                        </figure>
+                        <figure class="item lbimage" data-groups='["category_all", "aplicativo-web"]'>
+                            <div class="portfolio-item-img">
+                              <img src="{{asset('assets/img/foto/portafolio/dashboard05.png')}}" alt="Mockup Design 1" title="" />
+                              <a class="lightbox" title="Aplicativo-web" href="{{asset('assets/img/foto/portafolio/dashboard05.png')}}"></a>
+                            </div>
+
+                            <i class="far fa-image"></i>
+                            <h5 class="name">Cootranshuila plataforma(en desarrollo)</h5>
+                            <span class="category">Aplicativo web</span>
+                        </figure>
+                        <figure class="item lbimage" data-groups='["category_all", "hostal"]'>
+                            <div class="portfolio-item-img">
+                              <img src="{{asset('assets/img/foto/portafolio/hostal01.png')}}" alt="Mockup Design 1" title="" />
+                              <a class="lightbox" title="Aplicativo-web" href="{{asset('assets/img/foto/portafolio/hostal01.png')}}"></a>
+                            </div>
+
+                            <i class="far fa-image"></i>
+                            <h5 class="name">Hostal Sarita</h5>
+                            <span class="category">Pagina-web</span>
+                        </figure>
+                        <figure class="item lbimage" data-groups='["category_all", "hostal"]'>
+                            <div class="portfolio-item-img">
+                              <img src="{{asset('assets/img/foto/portafolio/hostal02.png')}}" alt="Mockup Design 1" title="" />
+                              <a class="lightbox" title="Aplicativo-web" href="{{asset('assets/img/foto/portafolio/hostal02.png')}}"></a>
+                            </div>
+
+                            <i class="far fa-image"></i>
+                            <h5 class="name">Hostal Sarita</h5>
+                            <span class="category">Pagina-web</span>
+                        </figure>
+                        <figure class="item lbimage" data-groups='["category_all", "hostal"]'>
+                            <div class="portfolio-item-img">
+                              <img src="{{asset('assets/img/foto/portafolio/hostal03.png')}}" alt="Mockup Design 1" title="" />
+                              <a class="lightbox" title="Aplicativo-web" href="{{asset('assets/img/foto/portafolio/hostal03.png')}}"></a>
+                            </div>
+
+                            <i class="far fa-image"></i>
+                            <h5 class="name">Hostal Sarita</h5>
+                            <span class="category">Pagina-web</span>
+                        </figure>
+                        <figure class="item lbimage" data-groups='["category_all", "hostal"]'>
+                            <div class="portfolio-item-img">
+                              <img src="{{asset('assets/img/foto/portafolio/hostal04.png')}}" alt="Mockup Design 1" title="" />
+                              <a class="lightbox" title="Aplicativo-web" href="{{asset('assets/img/foto/portafolio/hostal04.png')}}"></a>
+                            </div>
+
+                            <i class="far fa-image"></i>
+                            <h5 class="name">Hostal Sarita</h5>
+                            <span class="category">Pagina-web</span>
+                        </figure>
+                        <figure class="item lbimage" data-groups='["category_all", "tatacoa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="{{asset('assets/img/foto/portafolio/tatacoatours01.png')}}" alt="Mockup Design 1" title="" />
+                              <a class="lightbox" title="Aplicativo-web" href="{{asset('assets/img/foto/portafolio/tatacoatours01.png')}}"></a>
+                            </div>
+
+                            <i class="far fa-image"></i>
+                            <h5 class="name">Tatacoa Tours</h5>
+                            <span class="category">Pagina-web</span>
+                        </figure>
+                        <figure class="item lbimage" data-groups='["category_all", "tatacoa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="{{asset('assets/img/foto/portafolio/tatacoatours02.png')}}" alt="Mockup Design 1" title="" />
+                              <a class="lightbox" title="Aplicativo-web" href="{{asset('assets/img/foto/portafolio/tatacoatours02.png')}}"></a>
+                            </div>
+
+                            <i class="far fa-image"></i>
+                            <h5 class="name">Tatacoa Tours</h5>
+                            <span class="category">Pagina-web</span>
+                        </figure>
+                        <figure class="item lbimage" data-groups='["category_all", "tatacoa"]'>
+                            <div class="portfolio-item-img">
+                              <img src="{{asset('assets/img/foto/portafolio/tatacoatours03.png')}}" alt="Mockup Design 1" title="" />
+                              <a class="lightbox" title="Aplicativo-web" href="{{asset('assets/img/foto/portafolio/tatacoatours03.png')}}"></a>
+                            </div>
+
+                            <i class="far fa-image"></i>
+                            <h5 class="name">Tatacoa Tours</h5>
+                            <span class="category">Pagina-web</span>
+                        </figure>
+                        <figure class="item lbimage" data-groups='["category_all", "cootranshuila"]'>
+                            <div class="portfolio-item-img">
+                              <img src="{{asset('assets/img/foto/portafolio/cootranshuila01.png')}}" alt="Mockup Design 1" title="" />
+                              <a class="lightbox" title="Aplicativo-web" href="{{asset('assets/img/foto/portafolio/cootranshuila01.png')}}"></a>
+                            </div>
+
+                            <i class="far fa-image"></i>
+                            <h5 class="name">Cootranshuila</h5>
+                            <span class="category">Pagina-web</span>
+                        </figure>
+                        <figure class="item lbimage" data-groups='["category_all", "cootranshuila"]'>
+                            <div class="portfolio-item-img">
+                              <img src="{{asset('assets/img/foto/portafolio/cootranshuila02.png')}}" alt="Mockup Design 1" title="" />
+                              <a class="lightbox" title="Aplicativo-web" href="{{asset('assets/img/foto/portafolio/cootranshuila02.png')}}"></a>
+                            </div>
+
+                            <i class="far fa-image"></i>
+                            <h5 class="name">Cootranshuila</h5>
+                            <span class="category">Pagina-web</span>
+                        </figure>
+                        <figure class="item lbimage" data-groups='["category_all", "cootranshuila"]'>
+                            <div class="portfolio-item-img">
+                              <img src="{{asset('assets/img/foto/portafolio/cootranshuila03.png')}}" alt="Mockup Design 1" title="" />
+                              <a class="lightbox" title="Aplicativo-web" href="{{asset('assets/img/foto/portafolio/cootranshuila03.png')}}"></a>
+                            </div>
+
+                            <i class="far fa-image"></i>
+                            <h5 class="name">Cootranshuila</h5>
+                            <span class="category">Pagina-web</span>
                         </figure>
                       </div>
                     </div>
@@ -868,7 +968,7 @@
             <!-- End of Portfolio Subpage -->
 
             <!-- Blog Subpage -->
-            <section data-id="blog" class="animated-section">
+            {{-- <section data-id="blog" class="animated-section">
               <div class="section-content">
                 <div class="page-title">
                   <h2>Blog</h2>
@@ -971,43 +1071,43 @@
               </div>
 
 
-            </section>
+            </section> --}}
             <!-- End of Blog Subpage -->
 
             <!-- Contact Subpage -->
-            <section data-id="contact" class="animated-section">
+            <section data-id="contact" class="animated-section text-center">
               <div class="section-content">
-                <div class="page-title">
-                  <h2>Contact</h2>
+                <div class="page-title ">
+                  <h2>Contactame</h2>
                 </div>
 
                 <div class="row">
                   <!-- Contact Info -->
-                  <div class="col-xs-12 col-sm-4">
+                  <div class="col-xs-12 col-sm-12">
                     <div class="lm-info-block gray-default">
                       <i class="lnr lnr-map-marker"></i>
-                      <h4>San Francisco</h4>
+                      <h4>Neiva-Huila</h4>
                       <span class="lm-info-block-value"></span>
                       <span class="lm-info-block-text"></span>
                     </div>
 
                     <div class="lm-info-block gray-default">
                       <i class="lnr lnr-phone-handset"></i>
-                      <h4>415-832-2000</h4>
+                      <h4>+57 3126732928</h4>
                       <span class="lm-info-block-value"></span>
                       <span class="lm-info-block-text"></span>
                     </div>
 
                     <div class="lm-info-block gray-default">
                       <i class="lnr lnr-envelope"></i>
-                      <h4>alex@example.com</h4>
+                      <h4>diegojaramillo473@gmail.com</h4>
                       <span class="lm-info-block-value"></span>
                       <span class="lm-info-block-text"></span>
                     </div>
 
                     <div class="lm-info-block gray-default">
                       <i class="lnr lnr-checkmark-circle"></i>
-                      <h4>Freelance Available</h4>
+                      <h4>Desarrollador de software disponible</h4>
                       <span class="lm-info-block-value"></span>
                       <span class="lm-info-block-text"></span>
                     </div>
@@ -1018,12 +1118,12 @@
 
                   <!-- Contact Form -->
                   <div class="col-xs-12 col-sm-8">
-                    <div id="map" class="map"></div>
+                    {{-- <div id="map" class="map"></div>
                     <div class="block-title">
-                      <h3>How Can I <span>Help You?</span></h3>
+                      <h3>como te puedo <span>ayudar?</span></h3>
                     </div>
 
-                    <form id="contact_form" class="contact-form" action="{{asset('assets/contact_form/contact_form.php')}}" method="post">
+                    <form id="contact_form" class="contact-form" action="#" >
 
                       <div class="messages"></div>
 
@@ -1031,7 +1131,7 @@
                         <div class="fields clearfix">
                           <div class="left-column">
                             <div class="form-group form-group-with-icon">
-                              <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="Name is required.">
+                              <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" oninput="test()" data-error="Name is required.">
                               <label>Full Name</label>
                               <div class="form-control-border"></div>
                               <div class="help-block with-errors"></div>
@@ -1065,7 +1165,7 @@
 
                         <input type="submit" class="button btn-send" value="Send message">
                       </div>
-                    </form>
+                    </form> --}}
                   </div>
                   <!-- End of Contact Form -->
                 </div>
